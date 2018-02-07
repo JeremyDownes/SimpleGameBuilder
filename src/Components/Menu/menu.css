@@ -1,0 +1,10 @@
+ .menu img {
+	min-height: 5rem;
+	height: 5rem;
+	width: 5rem;
+}
+
+.menu {
+	max-width: 25%;
+  word-break: break-all;
+}

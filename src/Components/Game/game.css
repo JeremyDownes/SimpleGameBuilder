@@ -1,5 +1,55 @@
-.dragon {
-	position: relative;
-	top:50%;
-	height: 15rem;
+.fireCursor {
+	cursor: url('../../resources/images/cursors/fire.png'), crosshair;
+}
+
+.dragonCursor {
+	cursor: url('../../resources/images/cursors/dragon.png'), crosshair;
+}
+
+.lockCursor {
+	cursor: url('../../resources/images/cursors/lock.png'), crosshair;
+}
+
+.waterCursor {
+	cursor: url('../../resources/images/cursors/water.png'), crosshair;
+}
+
+.wallCursor {
+	cursor: url('../../resources/images/cursors/wall.png'), crosshair;
+}
+
+.arrowCursor {
+	cursor: url('../../resources/images/cursors/arrow.png'), crosshair;
+}
+
+.bowCursor {
+	cursor: url('../../resources/images/cursors/bow.png'), crosshair;
+}
+
+.wallCursor {
+	cursor: url('../../resources/images/cursors/wall.png'), crosshair;
+}
+
+.keyCursor {
+	cursor: url('../../resources/images/cursors/key.png'), crosshair;
+}
+
+.coinCursor {
+	cursor: url('../../resources/images/cursors/coin.gif'), crosshair;
+}
+
+.swordCursor {
+	cursor: url('../../resources/images/cursors/sword.png'), crosshair;
+}
+
+.chestCursor {
+	cursor: url('../../resources/images/cursors/chest.png'), crosshair;
+}
+
+.exitCursor {
+	cursor: url('../../resources/images/cursors/exit.jpg'), crosshair;
+}
+
+.blockCursor {
+	cursor: url('../../resources/images/cursors/block.jpg'), crosshair;
 }
