@@ -49,7 +49,7 @@ class Game extends React.Component {
 			let game = this.state.game
 			let obstacles = this.state.obstacles
 			game.obstacleBoard[x][y] = null
-			obstacles = obstacles.filter(obstacle=> obstacle.location[0] != x && obstacle.location[1] != y)
+			obstacles = obstacles.filter(obstacle=> obstacle.location[0] != x || obstacle.location[1] != y)
 			this.setState({game: game, obstacles, obstacles})
 			return
 		}
@@ -58,7 +58,7 @@ class Game extends React.Component {
 			let game = this.state.game
 			let objects = this.state.objects
 			game.objectBoard[x][y] = null
-			objects = objects.filter(object=> object.location[0] != x && object.location[1] != y)
+			objects = objects.filter(object=> object.location[0] != x || object.location[1] != y)
 			this.setState({game: game, objects: objects})
 			return
 		}

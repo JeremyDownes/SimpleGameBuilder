@@ -5,7 +5,7 @@ export const objects = [
 ,					{description: {type: 'exit',  interact: {nextLevel: 1, remove: false},imgSrc: require('../resources/images/objects/exit.jpg')},imgSrc: '../resources/images/objects/exit.jpg', cursor:'exitCursor'}
 ,					{description: {type: 'key',  interact: {gain: 'key', remove: true},imgSrc: require('../resources/images/objects/key.png')},imgSrc: '../resources/images/objects/key.png', cursor:'keyCursor'}
 ,					{description: {type: 'sword',  interact: {gain: 'sword', remove: true},imgSrc: require('../resources/images/objects/sword.png')},imgSrc: '../resources/images/objects/sword.png', cursor:'swordCursor'}
-,					{description: {type: 'coin',  interact: {coin: 1, remove: false},imgSrc: require('../resources/images/objects/coin.gif')},imgSrc: '../resources/images/objects/coin.gif', cursor:'coinCursor'}
+,					{description: {type: 'coin',  interact: {coin: 1, remove: true},imgSrc: require('../resources/images/objects/coin.gif')},imgSrc: '../resources/images/objects/coin.gif', cursor:'coinCursor'}
 ]
 
 export default objects
