@@ -13,7 +13,7 @@ class Menu extends React.Component {
 
 	objectstacle(objectstacle) {
 		return (
-			"location: ["+
+			"{ location: ["+
 			objectstacle.location[0]+
 			","+
 			objectstacle.location[1]+
