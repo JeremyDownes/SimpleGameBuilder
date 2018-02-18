@@ -53,3 +53,26 @@
 .blockCursor {
 	cursor: url('../../resources/images/cursors/block.jpg'), crosshair;
 }
+
+.ridingHoodCursor{
+	cursor: url('../../resources/images/cursors/riding-hood.png'), crosshair;
+}
+
+.bucketCursor{
+	cursor: url('../../resources/images/cursors/bucket.png'), crosshair;
+}
+
+.catCursor{
+	cursor: url('../../resources/images/cursors/cat.png'), crosshair;
+}
+
+.greenPotionCursor{
+	cursor: url('../../resources/images/cursors/potion_green.png'), crosshair;
+}
+.redPotionCursor{
+	cursor: url('../../resources/images/cursors/potion_red.png'), crosshair;
+}
+
+.dragonRiderCursor{
+cursor: url('../../resources/images/cursors/dragon-rider.png'), crosshair;	
+}

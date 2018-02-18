@@ -1,7 +1,5 @@
 .square {
-
-  border: 1px solid black;
-
+	border: 1px solid black;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -13,11 +11,6 @@
 	margin: 0;
 }
 
-.coin {
-	min-height: 150%;
-	min-width: 150%;
-}
-
 .dragon {
 	min-height: 250%;
 	min-width: 250%;
@@ -25,12 +18,54 @@
 }
 
 .fire {
-	min-height: 150%;
-	min-width: 250%;	
-	top: -45%;
+	min-height: 50%;
+	min-width: 50%;	
+	
 }
 
 .dragonRider {
 	min-height: 350%;
 	min-width: 350%;	
+}
+
+.ridingHood {
+	min-height: 150%;
+	min-width: 150%;
+}
+
+.wall{
+	max-height: 100%;
+}
+
+.water {
+	border-radius: 1.25rem;
+	min-height: 120%;
+	min-width: 120%;
+}
+
+.coin {
+	height: 50%;
+}
+
+.chest, .key, .arrow, .exit {
+	margin-top: 100%;
+	height: 100%;
+}
+
+.sword {
+	margin-top: 100%;
+	height: 100%;	
+}
+
+.meter {
+	margin: auto;
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	animation: flashing 1s linear alternate infinite;
+}
+
+@keyframes flashing {
+	from{ background-color: red; }
+	to{ background-color: white; }
 }
